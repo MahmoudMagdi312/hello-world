@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <title>natiga</title>
+</head>
+<body>
+    <h1>جامعة القاهرة - كلية التجارة</h1>
+    <h4> نتيجة الترم الثاني لائحة جديدة العام الجامعي 2022-2023 </h4>
+    <form action="#" method="post">
+        <label for="name">
+            البحث بالأسم الثنائي للطالب بالعربية   أو برقم الجلوس   أو برقم الخريج أو القومي أو رقم الباسبور للوافدين
+        </label>
+        <input type="text" name="name" id="name">
+        <label for="passwd">إلزام إدخال قومي الطالب أو رقم الباسبور للوافدين</label>
+        <input type="password" name="passwd" id="passwd">
+        <input type="submit" value="النتيجة">
+    </form>
+    
+</body>
+</html>
